@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    tools:context=".SetUp">
+    <TextView
+        android:id="@+id/ipViewer"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Yor IP"/>
+    <Button
+        android:id="@+id/buttonOn"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wifi Turn On" android:layout_marginLeft="70dp" android:layout_marginTop="200dp" />
+    <Button
+        android:id="@+id/buttonOFF"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonOn"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Disconnect"/>
+</RelativeLayout>

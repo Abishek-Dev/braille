@@ -11,36 +11,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-    <TextView
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="15sp"
-        android:text="Enter your Message:"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Enter your Message:"/>
 
-    <EditText
-        android:id="@+id/msg"
-        android:layout_marginTop="50dp"
-        android:layout_marginStart="25dp"
-        android:hint="Enter Your Message Here"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/msg"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="25dp"
+            android:hint="Enter Your Message Here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Send"
-        android:background="#FF0000"
-        android:textColor="#FFFF"/>
+        <Button
+            android:id="@+id/btn"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:background="#FF0000"
+            android:textColor="#FFFF"/>
+        <TextView
+            android:id="@+id/gotohistory"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#AF2F06"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to History Page"/>
     </LinearLayout>
 </LinearLayout>

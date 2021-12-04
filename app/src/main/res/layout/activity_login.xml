@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3FC1FB"
+    tools:context=".loginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="325dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/loginlogo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:hint="Username"
+        android:layout_marginTop="30dp"
+        android:background="#3E3D3D"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:layout_marginLeft="70dp"
+        android:textColorHint="@color/white"
+        android:textAlignment="viewStart"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:hint="Password"
+        android:layout_marginTop="25dp"
+        android:background="#3E3D3D"
+        android:layout_marginLeft="70dp"
+        android:textColorHint="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="viewStart"
+        android:textStyle="italic"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:id="@+id/login"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
